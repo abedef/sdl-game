@@ -8,6 +8,8 @@
 #include <map>
 #include <string>
 
+#include <SDL2/SDL.h>
+
 // Try to include as little as possible in header files
 // Forward declare to let us use these types as pointers without including SDL.h
 struct SDL_Window;
